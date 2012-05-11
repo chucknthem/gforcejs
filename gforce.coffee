@@ -42,8 +42,7 @@ class Node
 
 class Graph
   constructor: ->
-    @nodeMap = {}
-    @nodes = []
+    @nodes = {}
 
   addNode: (label, x, y) ->
     @nodes[label] = new Node(label, x, y)
